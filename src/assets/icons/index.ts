@@ -1,9 +1,35 @@
 import logo from './logo.svg';
 import hamburger from './hamburger.svg';
 import Animation from './animation.svg';
+import arrowup from './arrowup.svg';
+import guide2 from './guide2.svg';
+import guide1 from './guide1.svg';
+import guide3 from './guide3.svg';
+import guide33 from './guide33.svg';
+import grow1 from './grow1.svg';
+import grow2 from './grow2.svg';
+import grow3 from './grow3.svg';
+import grow4 from './grow4.svg';
+import  RocketLauncher from './RocketLaunch.svg';
+import MagicWand from './MagicWand.svg';
+import Target from './Target.svg';
+import Trend from './TrendUp.svg';  
 
 export {
   logo,
   hamburger,
-  Animation
+  Animation,
+  arrowup,
+  guide2,
+  guide1,
+  guide3,
+  guide33,
+  grow1,
+  grow2,
+  grow3,
+  grow4,
+  RocketLauncher,
+  MagicWand,
+  Target,
+  Trend
 }

@@ -1,4 +1,4 @@
-import { Home } from './Pages';
+import { Home, HowItWorks,Grow } from './Pages';
 // import { AnimatePresence } from 'framer-motion';
 // import { Routes, Route, useLocation } from 'react-router-dom'
 
@@ -6,15 +6,14 @@ function App() {
 
   return (
     <>
+    <div className='flex flex-col items-center justify-center gap-5'>
+
       <Home />
+      <HowItWorks/>
+      <Grow />
 
-      {/* <AnimatePresence mode='wait'>
-        <Routes location={location} key={location.pathname}>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-        </Routes>
-      </AnimatePresence> */}
 
+    </div>
     </>
   )
 }

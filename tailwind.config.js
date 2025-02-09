@@ -1,23 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-
+module.exports = {
   theme: {
     extend: {
-      fontFamily:{
-        epilogue: ['Orbitron', 'sans-serif'],
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
       },
-      boxShadow:{
-        secondary: '10px 10px 20px rgba(2, 2, 2, 0.25)',
-      },
-      colors: {
-        customGray: '#3C3D37',
-        customGreen: '#697565',
+      fontWeight: {
+        400: '400',
+        700: '700',
+        900: '900',
       },
     },
   },
-  plugins:[],
+  plugins: [],
 }
