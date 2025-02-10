@@ -13,7 +13,8 @@ const Grow = () => {
     return (
         <div className="flex w-[1366px] p-[96px_128px] flex-col justify-center items-center gap-[65px] ">
            <div className="flex flex-col items-center gap-6">
-              <h1 className="font-extrabold text-4xl font-900 leading-3 tracking-[-0.08px]">Grow your business. Rika handles payroll</h1>
+                <h1 className="font-extrabold text-4xl font-900 leading-3 tracking-[-0.08px]">Grow your business. Rika handles payroll</h1>
+                <h1 className="font-extrabold text-4xl font-900 leading-3 tracking-[-0.08px] font-orbitron">Grow your business. Rika handles payroll</h1>
             <h2 className="text-[#5C5C5C] text-center font-[Inter] text-[20px] font-medium leading-[170%]">Spend less time on payroll and more on your vision.</h2>
            </div>
           

@@ -13,7 +13,15 @@ import grow4 from './grow4.svg';
 import  RocketLauncher from './RocketLaunch.svg';
 import MagicWand from './MagicWand.svg';
 import Target from './Target.svg';
-import Trend from './TrendUp.svg';  
+import Trend from './TrendUp.svg'; 
+// import sonic from './sonic.svg';
+// import allora from './allora.svg';
+import debridge from './Debridge.svg';
+// import dorahacks from './Dorahacks.svg';
+import dwf from './DWFlabs.svg'; 
+import heyAnon from './HeyAnon.svg';
+import zerobro from './zerobro.svg';
+import caretdown from './caretdown.svg';
 
 export {
   logo,
@@ -31,5 +39,13 @@ export {
   RocketLauncher,
   MagicWand,
   Target,
-  Trend
+  Trend,
+  // sonic,
+  // allora,
+  debridge,
+  // dorahacks,
+  dwf,
+  heyAnon,
+  zerobro,
+  caretdown
 }

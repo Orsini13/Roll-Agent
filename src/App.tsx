@@ -1,4 +1,4 @@
-import { Home, HowItWorks,Grow } from './Pages';
+import { Home, HowItWorks,Grow,Sonic,FQA } from './Pages';
 // import { AnimatePresence } from 'framer-motion';
 // import { Routes, Route, useLocation } from 'react-router-dom'
 
@@ -11,6 +11,8 @@ function App() {
       <Home />
       <HowItWorks/>
       <Grow />
+      <Sonic />
+      <FQA />
 
 
     </div>

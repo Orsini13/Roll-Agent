@@ -1,17 +1,16 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
         orbitron: ['Orbitron', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
-      fontWeight: {
-        400: '400',
-        700: '700',
-        900: '900',
-      },
     },
   },
   plugins: [],
 }
+
+export default config
