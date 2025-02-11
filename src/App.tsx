@@ -1,4 +1,4 @@
-import { AuthCard, AuthSigned } from './Components';
+import { AuthCard, AuthSigned, Sidebar } from './Components';
 import { Home, HowItWorks,Grow,Sonic,FQA, ConactSupport } from './Pages';
 // import { Routes, Route, useLocation } from 'react-router-dom'
 
@@ -16,6 +16,7 @@ function App() {
       <ConactSupport />
       <AuthCard/>
       <AuthSigned />
+      <Sidebar />
 
 
     </div>

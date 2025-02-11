@@ -31,6 +31,12 @@ import caretright from './caretright.svg';
 import trustwalletframe from './trustwalletframe.svg';
 import walletconnectframe from './walletconnectframe.svg';
 import signedinperson from './signedinperson.svg';
+import SidebarSimple from './SidebarSimple.svg';
+import CaretDoubleLeft from './CaretDoubleLeft.svg';
+import house from './house.svg';
+import Users from './Users.svg';
+import Question from './Question.svg';
+import HandCoins from './HandCoins.svg';
 
 export {
   logo,
@@ -65,5 +71,12 @@ export {
   caretright,
   trustwalletframe,
   walletconnectframe,
-  signedinperson
+  signedinperson,
+  SidebarSimple,
+  CaretDoubleLeft,
+  house,
+  Users,
+  Question,
+  HandCoins
+
 }
