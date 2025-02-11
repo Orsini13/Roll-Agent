@@ -1,4 +1,4 @@
-import { caretright, framelogo, metamaskFrame, transferlogo, trustwalletframe, wallet, walletconnectframe } from "../assets/icons"
+import { caretright,  metamaskFrame, transferlogo, trustwalletframe, walletconnectframe } from "../assets/icons"
 
 
 const AuthCard = () => {

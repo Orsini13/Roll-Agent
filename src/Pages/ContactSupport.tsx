@@ -1,4 +1,4 @@
-import { CaretButtons } from "../assets/icons"
+
 
 const ContactSupport = () => {
     return (
@@ -14,28 +14,28 @@ const ContactSupport = () => {
                         Need help or have questions? Our team is ready to assist you every step of the way.
                     </h2>
                 </div>
-               
+
             </div>
 
             <div className="flex flex-col items-start gap-[48px] self-stretch">
                 <div className="flex items-start gap-[128px] self-stretch">
                     <div className="flex flex-col items-start gap-[24px] flex-1 ">
 
-                    <h2 className="text-[12px] font-semibold leading-[150%] text-[#858585] font-inter">
-                        Navigation
-                    </h2>
-                    <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
-                        Your content here
-                    </h2>
-                    <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
-                        Your content here
-                    </h2>
-                    <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
-                        Your content here
-                    </h2>
-                    <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
-                        Your content here
-                    </h2>
+                        <h2 className="text-[12px] font-semibold leading-[150%] text-[#858585] font-inter">
+                            Navigation
+                        </h2>
+                        <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
+                            Your content here
+                        </h2>
+                        <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
+                            Your content here
+                        </h2>
+                        <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
+                            Your content here
+                        </h2>
+                        <h2 className="text-[16px] font-normal leading-[170%] text-[#1A1A1A] font-inter">
+                            Your content here
+                        </h2>
                     </div>
                     <div className="flex flex-col items-start gap-[24px] flex-1 ">
 
