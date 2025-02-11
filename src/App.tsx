@@ -1,5 +1,5 @@
-import { Home, HowItWorks,Grow,Sonic,FQA } from './Pages';
-// import { AnimatePresence } from 'framer-motion';
+import { AuthCard, AuthSigned } from './Components';
+import { Home, HowItWorks,Grow,Sonic,FQA, ConactSupport } from './Pages';
 // import { Routes, Route, useLocation } from 'react-router-dom'
 
 function App() {
@@ -13,6 +13,9 @@ function App() {
       <Grow />
       <Sonic />
       <FQA />
+      <ConactSupport />
+      <AuthCard/>
+      <AuthSigned />
 
 
     </div>

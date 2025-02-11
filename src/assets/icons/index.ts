@@ -22,6 +22,15 @@ import dwf from './DWFlabs.svg';
 import heyAnon from './HeyAnon.svg';
 import zerobro from './zerobro.svg';
 import caretdown from './caretdown.svg';
+import CaretButtons from './CaretButtons.svg';
+import wallet from './wallet.svg';
+import framelogo from './framelogo.svg';
+import transferlogo from './transferlogo.svg';
+import metamaskFrame from './metamaskFrame.svg';
+import caretright from './caretright.svg';
+import trustwalletframe from './trustwalletframe.svg';
+import walletconnectframe from './walletconnectframe.svg';
+import signedinperson from './signedinperson.svg';
 
 export {
   logo,
@@ -47,5 +56,14 @@ export {
   dwf,
   heyAnon,
   zerobro,
-  caretdown
+  caretdown,
+  CaretButtons,
+  wallet,
+  framelogo,
+  transferlogo,
+  metamaskFrame,
+  caretright,
+  trustwalletframe,
+  walletconnectframe,
+  signedinperson
 }

@@ -1,4 +1,4 @@
-import { debridge,  dwf, heyAnon, zerobro } from "../assets/icons"
+import { debridge,  dwf, heyAnon } from "../assets/icons"
 
 const Sonic = () => {
   return (
