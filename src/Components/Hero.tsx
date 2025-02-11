@@ -1,11 +1,9 @@
-import { logo } from "../assets/icons";
-import { Animation } from "../assets/icons";
-import { arrowup } from "../assets/icons";
+import { logo, Animation, arrowup } from "../assets/icons";
 
 const Hero = () => {
     return (
         <div className="m-auto items-center bg-red-700 flex flex-row relative ">
-            <img src={Animation} alt="" className="" />
+            <img src={Animation} alt=""/>
 
             <div className="text-center absolute z-999 items-center flex flex-col space-y-14 p-20 ">
                 <img src={logo} alt="logo" className="w-[96px]" />
