@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import hamburger from './hamburger.svg';
-import Animation from './animation.svg';
+import Animation from './Animation.svg';
 import arrowup from './arrowup.svg';
 import guide2 from './guide2.svg';
 import guide1 from './guide1.svg';
