@@ -1,6 +1,6 @@
 import { logo, Animation, arrowup } from "../assets/icons";
 
-const Hero = () => {
+const HeroComponent = () => {
     return (
         <div className="m-auto items-center bg-red-700 flex flex-row relative ">
             <img src={Animation} alt=""/>
@@ -20,4 +20,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default HeroComponent;

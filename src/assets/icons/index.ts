@@ -37,6 +37,11 @@ import house from './house.svg';
 import Users from './Users.svg';
 import Question from './Question.svg';
 import HandCoins from './HandCoins.svg';
+import bell from './BellSimple.svg';
+import bellframe from './bellframe.svg';
+import list from './List.svg';
+import listframe from './listframe.svg';
+import wallett from './wallett.svg';
 
 export {
   logo,
@@ -65,6 +70,7 @@ export {
   caretdown,
   CaretButtons,
   wallet,
+  wallett,
   framelogo,
   transferlogo,
   metamaskFrame,
@@ -77,6 +83,10 @@ export {
   house,
   Users,
   Question,
-  HandCoins
+  HandCoins,
+  bell,
+  bellframe,
+  list,
+  listframe
 
 }

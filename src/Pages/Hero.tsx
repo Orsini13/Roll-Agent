@@ -1,16 +1,15 @@
-import { Navbar } from "../Components";
-import { Hero } from "../Components";
+import { Navbar, HeroComponent } from "../Components";
 
-const Home = () => {
+const Hero = () => {
   return (
       <div className="w-full h-screen flex flex-col bg-white text-black">
 
         <Navbar />
 
-        <Hero />
+        <HeroComponent />
         
     </div>
   )
 }
 
-export default Home;
+export default Hero;
