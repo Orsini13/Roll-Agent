@@ -33,7 +33,7 @@ import walletconnectframe from './walletconnectframe.svg';
 import signedinperson from './signedinperson.svg';
 import SidebarSimple from './SidebarSimple.svg';
 import CaretDoubleLeft from './CaretDoubleLeft.svg';
-import house from './house.svg';
+import house from './House.svg';
 import Users from './Users.svg';
 import Question from './Question.svg';
 import HandCoins from './HandCoins.svg';

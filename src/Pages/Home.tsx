@@ -1,5 +1,5 @@
 import { logo, wallett, listframe, bellframe } from "../assets/icons"
-import { PayCards,  PRInterface, Sidebar } from "../Components"
+import { PayCards, PRInterface, Sidebar } from "../Components"
 
 
 const Home = () => {
@@ -38,9 +38,9 @@ const Home = () => {
         <div className="flex pt-[24px] pr-[24px] pb-[32px] pl-[24px] flex-col items-center gap-[20px] flex-1 self-stretch rounded-[32px] bg-[#FFF]">
           <PayCards />
 
-       {/* PayRollInterface */}
+          {/* PayRollInterface */}
           <PRInterface />
-        
+
         </div>
 
       </div>
