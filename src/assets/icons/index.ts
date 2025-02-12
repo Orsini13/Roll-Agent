@@ -41,7 +41,7 @@ import bell from './BellSimple.svg';
 import bellframe from './bellframe.svg';
 import list from './List.svg';
 import listframe from './listframe.svg';
-import wallett from './wallett.svg';
+import wallett from './Wallett.svg';
 import Robot from './Robot.svg';
 import CaretUpDown from './CaretUpDown.svg';
 import PaperPlaneTilt from './PaperPlaneTilt.svg';
