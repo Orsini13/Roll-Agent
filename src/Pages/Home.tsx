@@ -1,6 +1,5 @@
-import { logo, wallett, listframe, bellframe, HandCoins, Users, caretdown, Robot, CaretUpDown } from "../assets/icons"
-import { PayCards, PayrollCards, PRInterface, Sidebar } from "../Components"
-import QuestionCards from "../Components/UIs/QuestionCards"
+import { logo, wallett, listframe, bellframe } from "../assets/icons"
+import { PayCards,  PRInterface, Sidebar } from "../Components"
 
 
 const Home = () => {

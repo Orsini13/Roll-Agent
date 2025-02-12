@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { HandCoins } from '../../assets/icons'
 
 const QuestionCards = () => {
