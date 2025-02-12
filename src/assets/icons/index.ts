@@ -42,8 +42,14 @@ import bellframe from './bellframe.svg';
 import list from './List.svg';
 import listframe from './listframe.svg';
 import wallett from './wallett.svg';
+import Robot from './Robot.svg';
+import CaretUpDown from './CaretUpDown.svg';
+import PaperPlaneTilt from './PaperPlaneTilt.svg';
 
 export {
+  PaperPlaneTilt,
+  CaretUpDown,
+  Robot,
   logo,
   hamburger,
   Animation,

@@ -1,5 +1,6 @@
-import { logo, wallett, listframe, bellframe, HandCoins, Users } from "../assets/icons"
-import { PayCards, Sidebar } from "../Components"
+import { logo, wallett, listframe, bellframe, HandCoins, Users, caretdown, Robot, CaretUpDown } from "../assets/icons"
+import { PayCards, PayrollCards, PRInterface, Sidebar } from "../Components"
+import QuestionCards from "../Components/UIs/QuestionCards"
 
 
 const Home = () => {
@@ -35,11 +36,12 @@ const Home = () => {
         </div>
 
         {/* 2nd frame */}
-        <div className="flex pt-[24px] pr-[24px] pb-[32px] pl-[24px] flex-col items-center gap-[20px] flex-1 self-stretch rounded-[32px] bg-[#F7F7F7]">
-
+        <div className="flex pt-[24px] pr-[24px] pb-[32px] pl-[24px] flex-col items-center gap-[20px] flex-1 self-stretch rounded-[32px] bg-[#FFF]">
           <PayCards />
-          
 
+       {/* PayRollInterface */}
+          <PRInterface />
+        
         </div>
 
       </div>
