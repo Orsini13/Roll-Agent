@@ -45,8 +45,10 @@ import wallett from './Wallett.svg';
 import Robot from './Robot.svg';
 import CaretUpDown from './CaretUpDown.svg';
 import PaperPlaneTilt from './PaperPlaneTilt.svg';
+import info from './Info.svg';
 
 export {
+  info,
   PaperPlaneTilt,
   CaretUpDown,
   Robot,

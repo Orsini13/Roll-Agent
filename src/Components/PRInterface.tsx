@@ -1,4 +1,5 @@
-import { caretdown, CaretUpDown, PaperPlaneTilt, Robot } from "../assets/icons"
+import { caretdown, CaretUpDown, PaperPlaneTilt, Robot, info } from "../assets/icons"
+import PayrollCards from "./PayrollCards"
 import QuestionCards from "./UIs/QuestionCards"
 
 
@@ -67,12 +68,33 @@ const PRInterface = () => {
 
                     </div>
 
-
                 </div>
 
                 {/* payrol card */}
-                <div></div>
+                <PayrollCards />
+
             </div>
+
+                {/* suggest */}
+                <div>
+                    <div className="flex justify-center items-center gap-[4px]">
+                        {/* suggestion and img */}
+                        <div className="flex p-[2px_6px] justify-center items-center gap-[4px]">
+                            <img src={info} alt="" />
+                            <h2 className="text-[#1A1A1A] text-[12px] font-semibold leading-[170%] font-inter">
+                                Suggestion
+                            </h2>
+                        </div>
+
+                        <div className="flex p-[2px_6px] justify-center items-center gap-[4px]">
+                            <h2 className="text-[#1A1A1A] text-[12px] font-normal leading-[170%] font-inter">
+                                Your next payout is in 3 days. Ensure your balance is sufficient.
+                            </h2>
+                        </div>
+
+
+                    </div>
+                </div>
 
 
 
