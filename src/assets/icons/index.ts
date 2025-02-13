@@ -46,8 +46,12 @@ import Robot from './Robot.svg';
 import CaretUpDown from './CaretUpDown.svg';
 import PaperPlaneTilt from './PaperPlaneTilt.svg';
 import info from './Info.svg';
+import plus from './Plus.svg';
+import pharm from './Pharm.png'
 
 export {
+  pharm,
+  plus,
   info,
   PaperPlaneTilt,
   CaretUpDown,

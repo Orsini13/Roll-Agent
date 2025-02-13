@@ -2,10 +2,7 @@ import { createAppKit } from '@reown/appkit/react'
 import { EthersAdapter } from '@reown/appkit-adapter-ethers'
 import { defineChain } from '@reown/appkit/networks';
 
-
-
 // 1. Get projectId from env
-
 const projectId = import.meta.env.VITE_APP_PROJECTID;
 
 const sonicBlazeTestnet = defineChain({
@@ -41,7 +38,6 @@ const metadata = {
   url: 'https://mywebsite.com', // origin must match your domain & subdomain
   icons: ['https://avatars.mywebsite.com/'],
 }
-
 // 4. Create a AppKit instance
 createAppKit({
   adapters: [new EthersAdapter()],

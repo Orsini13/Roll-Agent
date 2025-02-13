@@ -1,11 +1,21 @@
+import { useEffect } from "react";
 import { hamburger, logo } from "../assets/icons"
+import useRF from "../hooks/useRF";
 
 const Navbar = () => {
+
+  const { getPaused } = useRF();
+  useEffect(() => {
+    getPaused();
+  }, []);
+
+
   return (
+
     <div>
       <nav className="w-full px-[128px] py-[16px] flex flex-row  justify-between items-center  bg-white text-black">
         <div className="flex flex-row space-x-2 justify-center items-center p-2 cursor-pointer">
-          <img src={logo} alt="Rikka" />
+         <img src={logo} alt="Rikka" />
           <h2 className="font-orbitron">RIKA</h2>
         </div>
 
