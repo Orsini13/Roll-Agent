@@ -62,7 +62,7 @@ const PayrollCards = () => {
           <div className="flex items-center justify-center gap-[8px] flex-1 ">
             <img src={Users} alt="" />
             <div className="flex ">
-               <h1 className="text-[var(--Color-Text-Secondary,#5C5C5C)] font-[Inter] text-[14px] font-normal font-[400] leading-[170%]">16 employees</h1>
+               <h1 className="text-[var(--Color-Text-Secondary,#5C5C5C)] font-[Inter] text-[14px] font-normal leading-[170%]">16 employees</h1>
             <img src={CaretUpDown} alt="" />
             </div>
            

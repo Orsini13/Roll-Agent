@@ -3,7 +3,9 @@ import { logo, Animation, arrowup } from "../assets/icons";
 const HeroComponent = () => {
     return (
         <div className="m-auto items-center bg-red-700 flex flex-row relative ">
+            
             <img src={Animation} alt=""/>
+            
 
             <div className="text-center absolute z-999 items-center flex flex-col space-y-14 p-20 ">
                 <img src={logo} alt="logo" className="w-[96px]" />
