@@ -2,7 +2,7 @@ import { HeroComponent } from "../Components";
 
 const Hero = () => {
   return (
-      <div className="w-full h-screen flex flex-col bg-white text-black">
+      <div className="">
         <HeroComponent />
         
     </div>

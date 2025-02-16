@@ -36,8 +36,6 @@ const Navbar = () => {
   }, [walletProvider])
 
   return (
-
-    <div>
       <nav className="w-full px-[128px] py-[16px] flex flex-row  justify-between items-center  bg-white text-black">
         <div className="flex flex-row space-x-2 justify-center items-center p-2 cursor-pointer">
           <img src={logo} alt="Rikka" />
@@ -52,7 +50,7 @@ const Navbar = () => {
         </div>
 
       </nav>
-    </div>
+    
   )
 }
 

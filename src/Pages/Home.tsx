@@ -4,7 +4,7 @@ import { PayCards, PRInterface, Sidebar } from "../Components"
 
 const Home = () => {
   return (
-    <div className="flex flex-row w-[1366px] h-[768px] p-[16px] items-start bg-[#FAFAFA]">
+    <div className="w-full flex flex-row w-[1366px] h-[768px] p-[16px] items-start bg-[#FAFAFA]">
       <Sidebar />
       <div className="flex pt-[16px] pr-[48px] pb-[0px] pl-[48px] flex-col justify-center items-center gap-[8px] flex-1 self-stretch rounded-[24px] bg-[#FFFFFF]">
 
