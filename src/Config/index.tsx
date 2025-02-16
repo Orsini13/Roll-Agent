@@ -29,7 +29,6 @@ const sonicBlazeTestnet = defineChain({
   }
 });
 // 2. Set the networks
-const chains = [sonicBlazeTestnet]
 
 // 3. Create a metadata object - optional
 const metadata = {
@@ -41,7 +40,7 @@ const metadata = {
 // 4. Create a AppKit instance
 createAppKit({
   adapters: [new EthersAdapter()],
-  networks: chains,
+  networks: [sonicBlazeTestnet],
   metadata,
   projectId,
   features: {

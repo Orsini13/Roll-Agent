@@ -1,6 +1,6 @@
 import { Contract } from 'ethers'
 import RMABIs from './RMABis.json'
-import RFABIs from './RFABis.json'
+import RFABIs from './RFABIs.json'
 import { JsonRpcProvider } from 'ethers'
 import { ContractRunner } from 'ethers'
 
@@ -23,7 +23,7 @@ const getWriteManagement = (signer: ContractRunner) => {
   return contract
 }
 const getWriteFactory = (signer: ContractRunner) => {
-  const address = import.meta.env.VITE_APP_RIKA_Factory
+  const address = import.meta.env.VITE_RIKA_FACTORY
   const contract = new Contract(address, RFABIs, signer)
   return contract
 }

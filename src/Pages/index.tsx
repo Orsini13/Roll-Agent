@@ -5,3 +5,4 @@ export {default as Sonic} from "./Sonic.tsx";
 export {default as FQA} from "./FQA.tsx";
 export {default as ConactSupport} from "./ContactSupport.tsx";
 export {default as Hero} from "./Hero.tsx";
+export {default as LandingPage} from "./LandingPage.tsx"
