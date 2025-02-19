@@ -25,6 +25,10 @@ const HomeDisplay = () => {
                     </div>
                 )}
 
+                <div>
+                    
+                </div>
+
 
         </>
 
