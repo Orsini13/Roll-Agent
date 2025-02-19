@@ -1,5 +1,5 @@
 import { logo, wallett, listframe, bellframe } from "../assets/icons"
-import { PayCards, PRInterface, Sidebar } from "../Components"
+import { HomeDisplay, Sidebar } from "../Components"
 
 
 const Home = () => {
@@ -36,10 +36,7 @@ const Home = () => {
 
         {/* 2nd frame */}
         <div className="flex pt-[24px] pr-[24px] pb-[32px] pl-[24px] flex-col items-center gap-[20px] flex-1 self-stretch rounded-[32px] bg-[#FFF]">
-          <PayCards />
-
-          {/* PayRollInterface */}
-          <PRInterface />
+          <HomeDisplay />
 
         </div>
 

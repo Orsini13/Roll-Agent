@@ -47,9 +47,11 @@ import CaretUpDown from './CaretUpDown.svg';
 import PaperPlaneTilt from './PaperPlaneTilt.svg';
 import info from './Info.svg';
 import plus from './Plus.svg';
-import pharm from './Pharm.png'
+import pharm from './Pharm.png';
+import emptysFrame from './emptysFrame.svg'
 
 export {
+  emptysFrame,
   pharm,
   plus,
   info,

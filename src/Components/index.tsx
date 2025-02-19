@@ -7,6 +7,7 @@ export { default as Sidebar } from "./Sidebar.tsx";
 export { default as PayCards } from "./PayCards.tsx";
 export { default as PayrollCards } from "./PayrollCards.tsx";
 export { default as PRInterface } from "./PRInterface.tsx";
+export {default as HomeDisplay} from "./HomeDisplay.tsx"
 
 
 
